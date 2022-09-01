@@ -1,0 +1,34 @@
+<html>
+<head>
+    <title>Futebol</title>
+    <meta charset= "UTF-8">
+</head>
+
+<body> 
+    <script> 
+    for(c=1;c<4;c++) { // dada a idade do jogador , classifique em uma categoria infantil , juvenil , adulto 
+        var nome = prompt("Digite o nome");
+        nome=nome;
+        var idade = prompt("Digite a idade do atleta");
+        idade = parseInt(idade); 
+    if (idade>=18) {
+        cat="adulto";
+    }else
+    if(idade >= 10) {
+      cat="juvenil";
+    }else
+    {
+       cat= "infantil"; 
+    }       
+    
+
+    document.write ("Nome:"+nome);
+    document.write ("<br>")
+     document.write ("Idade:"+idade);
+     document.write ("<br>")
+     document.write ("Categoria:"+cat);
+
+     }  
+</script>
+</body>
+</html>
